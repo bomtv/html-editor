@@ -3,9 +3,15 @@
 body {background-color:#f9ff00; font-family: Tahoma, Verdana; }
 textarea {border: 2px solid; }
 input {width: 200px; height: 33px; font-size: 20px; color:red;}
-</style></head><body  text="black"><script language="JavaScript">
+</style><script type="text/javascript">
+if (top.location != location) {if(document.referrer && document.referrer.indexOf("coptv.tk")
+ == -1) { top.location.replace(document.location.href); } }</script>
+<script language="JavaScript">function urlCheck() 
+{if(window.location.href=="http://coptv.tk/html-editor/"){}else{
+(window.location='http://coptv.tk/html-editor/');}}urlCheck()</script>  
+</head><body  text="black"><script language="JavaScript">
 function preview(){temp=document.tester.box.value,preWindow=open("","preWindow"," menubar=yes, scrollbars=yes"),
-  preWindow.document.open(),preWindow.document.write(temp),preWindow.document.close()}</script>
+preWindow.document.open(),preWindow.document.write(temp),preWindow.document.close()}</script>
 <center><h1>HTML And Script Code Tester</h1><form name="tester">
 <textarea rows="22" cols="85" wrap="physical" name="box"></textarea><br>
 <input type="button" value="Test HTML Code" onClick="preview()">
